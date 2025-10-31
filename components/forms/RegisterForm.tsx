@@ -333,7 +333,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             placeholder="123456789"
           />
 
-          <CustomFormField
+          {/* <CustomFormField
             fieldType={FormFieldType.SKELETON}
             control={form.control}
             name="identificationDocument"
@@ -343,7 +343,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                 <FileUploader files={field.value} onChange={field.onChange} />
               </FormControl>
             )}
-          />
+          /> */}
         </section>
 
         <section className="space-y-6">
